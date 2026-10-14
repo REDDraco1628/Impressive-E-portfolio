@@ -18,6 +18,7 @@ html {
 .row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 100%;
 }
 
@@ -48,10 +49,8 @@ html {
 
 .nav__list {
     display: flex;
-    position: relative;
-    left: 1500px;
-    top: -120px;
     justify-content: flex-end;
+    align-items: center;
     list-style: none;
     
 }
@@ -67,4 +66,13 @@ html {
     border: none;
     cursor: pointer;
     font-size: 1.05rem;
+}
+
+*/ About me Section */
+
+.about__me--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
