@@ -1,0 +1,70 @@
+
+*/ Basic styles */
+
+html {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-red {
+    color: red;
+}
+
+*/ Navigation Bar */
+
+.nav__bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav__logo {
+    display: flex;
+    width: 50%;
+    padding: 1px 1px;
+    border-radius: 75px;
+}
+
+.nav__list {
+    display: flex;
+    position: relative;
+    left: 1500px;
+    top: -120px;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+
+.nav__item {
+    display: flex;
+    list-style: none;
+    margin-left: 18px;
+}
+
+.nav__btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.05rem;
+}
