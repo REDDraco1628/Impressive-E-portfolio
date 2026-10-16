@@ -9,29 +9,37 @@
 </head>
 <body>
     <section id="landing">
-        <div class="container">
-            <div class="row">
-               <div class="nav__bar">
-                    <figure><img class="nav__logo" src="./assets/Possible_Logo_002.jpg"></figure>
+        <div class="nav__container">
+            <div class="nav__row">
+                <nav class="nav__bar">
+                    <div class="nav__logo-container">
+                        <img class="nav__logo" src="./assets/Possible_Logo_002.jpg">
+                    </div>
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#about"> About </a></li>
-                        <li class="nav__item"><a href="#"> Projects </a></li>
-                        <li class="nav__item"><a href="#"> Contact </a></li>
-                        <button class="nav__btn"><i class="fa-solid fa-circle-half-stroke"></i></button>
+                        <li class="nav__item"><a href="#about" class="nav__link"> About </a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link"> Portfolio </a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link"> Contact </a></li>
+                        <button class="nav__btn"><i class="nav__btn--icon fa-solid fa-circle-half-stroke"></i></button>
                     </ul>
-                </div>
+                </nav>
             </div>
         </div>
     </section>
     <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about__me--cont">
-                    <h1 class="about__name"> Hey <br><span class="text-red"> I'm Kevin </span></h1>
-                    <p class="about__description"> I'm a <span class="text-red"> Frontend Software Engineer </span> with a 
-                        <br> strong passion for building web 
-                        <br> applications with great user experiences. </p>
-                    <p class="about__description"> Here's a bit more <span class="text-red"> about me. </span></p>
+        <div class="about__container">
+            <div class="about__content">
+                <h1 class="about__me--main"> Hey 
+                    <br><span class="text-red"> I'm Kevin </span>
+                </h1>
+                <p class="about__me--para"> I'm a <span class="text-red"> Frontend Software Engineer </span>
+                    <br> strong passion for building web
+                    <br> applications with great user experiences.
+                    <br> Here's a bit more <span class="text-red"> about me </span>
+                </p>
+                <div class="about__links">
+                    <a href="https://github.com/REDDraco1628" class="about__link" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kevin-hobbs-34218421b/" class="about__link" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="./assets/resume-1787089729595.pdf" class="about__link" target="_blank"><i class="fa-solid fa-file"></i></a>
                 </div>
             </div>
         </div>

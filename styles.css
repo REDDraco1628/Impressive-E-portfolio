@@ -11,68 +11,85 @@ html {
     color: inherit;
 }
 
-.container {
-    display: flex;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
 .text-red {
     color: red;
 }
 
 */ Navigation Bar */
 
+#landing {
+    display: flex;
+    height: 50vh;
+}
+
+
 .nav__bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
 }
 
 .nav__logo {
-    display: flex;
     width: 50%;
-    padding: 1px 1px;
-    border-radius: 75px;
+    padding: 10px 10px;
+    border-radius: 100px;
 }
 
 .nav__list {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: row;
     list-style: none;
-    
 }
 
 .nav__item {
-    display: flex;
-    list-style: none;
-    margin-left: 18px;
+    margin-left: 20px;
 }
 
 .nav__btn {
-    background: none;
     border: none;
+    background-color: transparent;
     cursor: pointer;
-    font-size: 1.05rem;
+    height: 25px;
+    width: 25px;
+    margin-right: 35px;
+    margin-left: 20px;
 }
 
-*/ About me Section */
+.nav__btn--icon {
+    font-size: 25px;
+}
 
-.about__me--container {
+*/ About Section */
+
+#about {
+    display: flex;
+    height: 100vh;
+}
+
+.about__container {
+    flex-direction: row;
+    margin-top: 120px;
+}
+
+.about__content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
+
+.about__me--main {
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.about__me--para {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.about__links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
