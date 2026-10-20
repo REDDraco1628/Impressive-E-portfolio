@@ -158,3 +158,72 @@ html {
     display: flex;
     height: 100vh;
 }
+
+.projects__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.projects__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__area {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__heading {
+    font-size: 45px;
+    font-weight: bold;
+    color: red;
+}
+
+.projects__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.projects__item {
+    margin-bottom: 75px;
+    background-color: grey;
+    padding: 200px 600px;
+    border-radius: 50px;
+    transition: all 300ms ease;
+}
+
+.projects__item:hover {
+    transform: scale(1.1);
+}
+
+.projects__item:active {
+    transform: scale(0.9);
+}
+
+.project__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project__text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 180px;
+    right: 545px;
+}
+
+.project__name {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.project__description {
+    font-size: 18px;
+    line-height: 1.5;
+}
