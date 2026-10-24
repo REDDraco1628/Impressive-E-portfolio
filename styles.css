@@ -94,7 +94,7 @@ html {
 
 #about {
     display: flex;
-    height: 100vh;
+    height: 150vh;
     background-color: rgb(245, 245, 245);
 }
 
@@ -226,4 +226,73 @@ html {
 .project__description {
     font-size: 18px;
     line-height: 1.5;
+}
+
+*/ Footer Section */
+
+#footer {
+    height: 20vh;
+    background-color: rgb(41, 40, 40);
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 1150px;
+}
+
+.footer__logo {
+    width: 200px;
+    padding: 5px 5px;
+    border-radius: 100px;
+}
+
+.footer__right {
+    display: flex;
+    align-items: center;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footer__link {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    background-color: red;
+    text-align: center;
+    padding: 8px 8px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    transition: all 300ms ease;
+}
+
+.footer__link:hover {
+    transform: scale(1.15);
+    background-color: darkred;
+}
+
+.footer__link:active {
+    transform: scale(0.95);
+    background-color: maroon;
+}
+
+.footer__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__text {
+    font-size: 18px;
+    color: black;
 }
