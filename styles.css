@@ -14,6 +14,8 @@ a {
     color: red;
 }
 
+
+
 */ landing page */
 */ Nav bar */
 
@@ -47,6 +49,24 @@ a {
     padding: 10px 14px;
     border-radius: 25px;
     transition: all 350ms ease-in-out;
+}
+
+.nav__btn--contrast {
+    position: relative;
+    bottom: -8px;
+    background-color: inherit;
+    border: none;
+    scale: 2.1;
+    transition: all 350ms ease-in-out;
+}
+
+.nav__btn--contrast:hover {
+    cursor: pointer;
+    transform: scale(1.12);
+}
+
+.nav__btn--contrast:active {
+    transform: scale(0.86);
 }
 
 .nav__list:hover {
@@ -88,4 +108,95 @@ a {
     width: 100%;
     height: 100%;
     z-index: -2;
+}
+
+*/ about me section */
+
+.about__me--column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__me--row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about__me--name {
+    font-size: 56px;
+}
+
+.about__me--description {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.about__me--links {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -36px;
+    list-style: none;
+}
+
+.about__me--link {
+    color: red;
+    margin-right: 20px;
+    scale: 1.5;
+    transition: all 350ms ease-in-out;
+}
+
+.about__me--link:hover {
+    color: rgb(216, 4, 4);
+    cursor: pointer;
+    scale: 1.75;
+}
+
+.about__me--link:active {
+    color: rgb(252, 69, 69);
+    scale: 1.12;
+}
+
+*/ contact section */
+*/ mail button */
+
+.mail__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.mail__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mail__btn {
+    display: flex;
+    position: relative;
+    right: 45px;
+    top: 260px;
+    color: red;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    padding: 6px 5px;
+    scale: 3;
+    transition: all 350ms ease-in-out;
+}
+
+.mail__btn:hover {
+    cursor: pointer;
+    color: rgb(199, 11, 11);
+    background-color: rgb(31, 31, 31);
+    scale: 3.25;
+}
+
+.mail__btn:active {
+    color: rgb(255, 91, 91);
+    background-color: black;
+    scale: 2.75;
 }
