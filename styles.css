@@ -19,6 +19,12 @@ a {
 */ landing page */
 */ Nav bar */
 
+#landing {
+    display: flex;
+    height: 100vh;
+    margin-bottom: 150px;
+}
+
 .landing__nav {
     display: flex;
     flex-direction: column;
@@ -112,6 +118,10 @@ a {
 
 */ about me section */
 
+.landing__about--me {
+    height: 100vh;
+}
+
 .about__me--column {
     display: flex;
     flex-direction: column;
@@ -160,43 +170,80 @@ a {
 }
 
 */ contact section */
+
+#sub__contact {
+    height: 100vh;
+    margin-top: 150px;
+}
+
 */ mail button */
 
 .mail__container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .mail__row {
-    display: flex;
     flex-direction: row;
+}
+
+.mail__row--center {
+    justify-content: center;
+    align-items: center;
+}
+
+.mail__row--left {
+    display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.srcoll__arrow--btn {
+    justify-content: center;
+    align-items: center;
+    scale: 1.5;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.scroll__arrow--btn:hover {
+    scale: 1.75;
+    cursor: pointer;
 }
 
 .mail__btn {
-    display: flex;
     position: relative;
-    right: 45px;
-    top: 260px;
+    left: -36px;
+    top: 175px;
+    scale: 2.5;
+    background: black;
     color: red;
-    background-color: black;
     border: none;
-    border-radius: 50%;
-    padding: 6px 5px;
-    scale: 3;
+    padding: 10px 10px;
+    border-radius: 40px;
     transition: all 350ms ease-in-out;
 }
 
 .mail__btn:hover {
+    scale: 3.0;
+    border: red solid 1px;
     cursor: pointer;
-    color: rgb(199, 11, 11);
-    background-color: rgb(31, 31, 31);
-    scale: 3.25;
 }
 
 .mail__btn:active {
-    color: rgb(255, 91, 91);
-    background-color: black;
-    scale: 2.75;
+    scale: 2.0;
+    border: maroon solid 2px;
+    cursor: pointer;
+}
+
+*/ projects section */
+
+#projects {
+    display: flex;
+    height: 100vh;
+    margin-top: 150px;
 }
