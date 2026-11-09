@@ -201,20 +201,6 @@ a {
     align-items: flex-end;
 }
 
-.srcoll__arrow--btn {
-    justify-content: center;
-    align-items: center;
-    scale: 1.5;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.scroll__arrow--btn:hover {
-    scale: 1.75;
-    cursor: pointer;
-}
-
 .mail__btn {
     position: relative;
     left: -36px;
@@ -244,6 +230,42 @@ a {
 
 #projects {
     display: flex;
-    height: 100vh;
+    position: absolute;
+    height: 500vh;
     margin-top: 150px;
+}
+
+.projects__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+}
+
+.projects__list {
+    flex-direction: column;
+    list-style: none;
+}
+
+.projects__item {
+    padding: 200px 350px;
+    border: 1px solid black;
+    transition: all 350ms ease-in-out;
+}
+
+.projects__item:hover {
+    border: 2px solid red;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.projects__item:active {
+    border: 2px solid maroon;
+    scale: 0.90;
 }
