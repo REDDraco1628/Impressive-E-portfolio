@@ -312,7 +312,7 @@ a {
     font-size: 20px;
     font-weight: bold;
     position: relative;
-    top: -200px;
+    top: -205px;
     right: 325px;
 }
 
@@ -336,8 +336,8 @@ a {
     font-size: 18px;
     font-weight: normal;
     position: relative;
-    top: -249px;
-    right: 150px;
+    top: -185px;
+    right: 325px;
 }
 
 .project__discription--03 {
