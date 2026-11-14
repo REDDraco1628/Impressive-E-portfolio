@@ -242,30 +242,108 @@ a {
 
 .project__row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 350px;
+    margin-top: 400px;
+}
+
+.projects__title {
+    display: flex;
+    font-size: 48px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.projects__list--container {
+    display: flex;
+    flex-direction: row;
 }
 
 .projects__list {
     flex-direction: column;
     list-style: none;
+    margin-top: 75px;
 }
 
-.projects__item {
+.projects__item--01 {
+    background: url('assets/Project__one.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 50px;
     padding: 200px 350px;
     border: 1px solid black;
     transition: all 350ms ease-in-out;
 }
 
-.projects__item:hover {
+.projects__item--02 {
+    background: url('assets/Project__two.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding: 200px 350px;
+    border: 1px solid black;
+    transition: all 350ms ease-in-out;
+}
+
+.projects__item--03 {
+    background: url('assets/Project__three.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding: 200px 350px;
+    border: 1px solid black;
+    transition: all 350ms ease-in-out;
+}
+
+.projects__item--01:hover,
+.projects__item--02:hover,
+.projects__item--03:hover {
     border: 2px solid red;
     cursor: pointer;
     scale: 1.05;
 }
 
-.projects__item:active {
+.projects__item--01:active,
+.projects__item--02:active,
+.projects__item--03:active {
     border: 2px solid maroon;
     scale: 0.90;
+}
+
+.project__name {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: -200px;
+    right: 325px;
+}
+
+.project__name--03 {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: -185px;
+    right: 325px;
+}
+
+.project__discription {
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    top: -200px;
+    right: 325px;
+}
+
+.project__discription--02 {
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    top: -249px;
+    right: 150px;
+}
+
+.project__discription--03 {
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    top: -185px;
+    right: 325px;
 }
